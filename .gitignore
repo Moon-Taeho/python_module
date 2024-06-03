@@ -1,0 +1,4 @@
+python_module/__pycache__
+
+# Markdown要らない
+*.md
