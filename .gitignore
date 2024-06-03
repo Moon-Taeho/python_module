@@ -1,5 +1,5 @@
 python_module/__pycache__
 
-*.md
+./*.md
 
-.gitignore
+./.gitignore
