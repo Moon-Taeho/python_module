@@ -2,9 +2,8 @@ from openpyxl import Workbook, load_workbook
 
 # wb = Workbook()
 
-wb = load_workbook("./python_module/excel.xlsx")
-
-ws = wb["Sheet1"]
+wb = Workbook()
+ws = wb.create_sheet(title='Sheet1')
 
 for row in ws.rows:
     for cell in row:
