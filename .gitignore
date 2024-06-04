@@ -5,3 +5,7 @@ python_module/__pycache__
 python_module/**/*.md
 
 python_module/**/*.xlsx
+
+python_module/.env
+
+python_module/**/*.csv
